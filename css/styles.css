@@ -431,6 +431,11 @@ button {
   fill: var(--main-background-color);
 }
 
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--active-blue-button-color);
+}
+
 .socials-item {
   width: 16px;
   height: 16px;
@@ -705,6 +710,12 @@ footer {
 .cross {
   width: 8px;
   height: 8px;
+}
+
+.close-button:hover,
+.close-button:focus {
+  background: var(--active-blue-button-color);
+  fill: var(--blue-button-text-color);
 }
 
 .close-button {
