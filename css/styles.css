@@ -40,7 +40,7 @@ img {
   display: block;
 }
 
-button:hover,
+/* button:hover,
 button:focus,
 a:hover,
 a:focus,
@@ -53,7 +53,7 @@ div:focus,
     background-color 250ms var(--timing-function),
     fill 250ms var(--timing-function), box-shadow 250ms var(--timing-function),
     transform 250ms var(--timing-function);
-}
+} */
 
 /* ================== NAVIGAGION================== */
 .logo {
@@ -173,6 +173,7 @@ header {
 
 .nav-list a {
   color: var(--title-color-navyblue);
+  transition: color 250ms var(--timing-function);
 }
 
 .nav-list a:hover,
@@ -191,6 +192,7 @@ header {
 
 .contact-list a {
   color: var(--text-color-slate);
+  transition: color 250ms var(--timing-function);
 }
 
 .contact-list a:active {
@@ -257,6 +259,8 @@ button {
   color: var(--blue-button-text-color);
   letter-spacing: 0.02em;
   line-height: 1.17;
+  transition: background-color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 
 .blue-button:hover,
@@ -444,6 +448,7 @@ button {
   align-items: center;
   border-radius: 50%;
   fill: var(--main-background-color);
+  transition: background-color 250ms var(--timing-function);
 }
 
 .socials-link:hover,
@@ -494,6 +499,7 @@ button {
   height: 88px;
   border-radius: 4px;
   fill: #8e8f99;
+  transition: fill 250ms var(--timing-function);
 }
 
 .customers-item {
@@ -552,6 +558,7 @@ button {
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition: background-color 250ms var(--timing-function);
 }
 
 .social-media-item {
@@ -601,6 +608,7 @@ footer {
   height: 100%;
   background-color: var(--blue-button-color);
   color: var(--white-button-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .project-item:hover .overlay {
@@ -620,6 +628,8 @@ footer {
   padding: 12px 24px 12px 24px;
   background-color: var(--white-button-color);
   color: var(--white-button-text-color);
+  transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
 }
 
 .button-list {
@@ -677,6 +687,7 @@ footer {
 .project-item {
   width: 360px;
   height: 420px;
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .project-item:hover,
