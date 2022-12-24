@@ -629,7 +629,7 @@ footer {
   background-color: var(--white-button-color);
   color: var(--white-button-text-color);
   transition: background-color 250ms var(--timing-function),
-    color 250ms var(--timing-function);
+    color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
 .button-list {
@@ -713,6 +713,8 @@ footer {
   top: 0;
   left: 0;
   background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms var(--timing-function),
+    visability 250ms var(--timing-function);
 }
 
 .modal {
